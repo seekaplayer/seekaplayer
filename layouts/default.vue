@@ -4,7 +4,7 @@
       class="flex flex-col md:flex-row justify-between items-center container mx-auto px-5 md:px-0"
     >
       <NuxtLink to="/"
-        ><Nuxt-img src="logo.png" alt="Seekaplayer Logo" height="75"
+        ><Nuxt-img src="/images/logo.png" alt="Seekaplayer Logo" height="75"
       /></NuxtLink>
       <ul class="flex gap-5 mt-5 md:mt-0">
         <li>

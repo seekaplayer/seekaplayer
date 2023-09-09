@@ -2,9 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "nuxt-icon"],
-  image: {
-    dir: "assets/images",
-  },
+
   app: {
     head: {
       charset: "utf-8",
