@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+  color: #222;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+p {
+  margin: 1em 0;
+}
+button,
+.btn {
+  background: #0e041e;
+  padding: 1em 2em;
+  cursor: pointer;
+  color: #fff;
+}
