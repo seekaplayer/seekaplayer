@@ -4,19 +4,28 @@
 
 body {
   background: #fff;
-  color: #222;
+  color: #1c1917;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-weight: 200;
 }
 h1 {
   font-size: 2em;
-  font-weight: bold;
 }
 h2 {
   font-size: 1.5em;
-  font-weight: bold;
 }
 h3 {
   font-size: 1.25em;
-  font-weight: bold;
 }
 p {
   margin: 1em 0;

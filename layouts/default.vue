@@ -35,7 +35,7 @@
 
 <style scoped>
   header {
-    background: #0e041e;
+    background: #1c1917;
   }
   .logo {
     height: 75px;
@@ -45,7 +45,7 @@
     font-size: 1.125rem;
   }
   nav ul li a:hover {
-    color: #dd49de;
+    color: #a855f7;
     transition: all 0.3s;
   }
 </style>

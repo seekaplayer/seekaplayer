@@ -11,7 +11,21 @@
       <form onsubmit="onsubmit" class="flex flex-col gap-5">
         <div class="flex flex-col gap-2">
           <label>Name</label>
-          <input type="text" name="name" id="name" placeholder="Your Name" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+        </div>
+        <div class="flex flex-col gap-2">
+          <label>Subject</label>
+          <select name="subject" id="subject">
+            <option value="general">General</option>
+            <option value="business">Business</option>
+            <option value="other">Other</option>
+          </select>
         </div>
         <div class="flex flex-col gap-2">
           <label>Email</label>
@@ -20,6 +34,7 @@
             name="email"
             id="email"
             placeholder="Your Email Address"
+            required
           />
         </div>
         <div class="flex flex-col gap-2">
@@ -30,6 +45,7 @@
             cols="30"
             rows="10"
             placeholder="Write a Message"
+            required
           ></textarea>
         </div>
 
@@ -82,13 +98,13 @@
     font-size: 2em;
   }
   h2 {
-    font-weight: 200;
   }
   form {
     display: flex;
     flex-direction: column;
   }
   input,
+  select,
   textarea {
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
