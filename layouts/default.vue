@@ -3,13 +3,9 @@
   <div>
     <slot />
   </div>
-  <footer class="text-center p-5 text-sm">
-    &copy; Seekaplayer, {{ year }}. All rights reserved.
-  </footer>
+  <Footer />
 </template>
 
-<script setup>
-  const year = new Date().getFullYear();
-</script>
+<script setup></script>
 
 <style scoped></style>
