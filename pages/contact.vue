@@ -26,7 +26,13 @@
         <p>
           If you're burning with a question, perhaps about streaming or
           something else, Twitter is your best bet to reach me. Just tag me
-          @seekaplayer and for all you coding enthusiasts, meet me on Github.
+          <NuxtLink
+            class="text-cyan-600 font-bold"
+            to="https://twitter.com/seekaplayer"
+            target="_blank"
+            >@seekaplayer</NuxtLink
+          >
+          and for all you coding enthusiasts, meet me on Github.
         </p>
         <p>
           So, don't hesitate to reach out. Looking forward to chatting with
@@ -36,10 +42,11 @@
       <header>
         <h2>My Socials</h2>
         <hr />
-        <Icon
-          name="game-icons:ace"
-          :style="{ color: 'blue', fontSize: '2em' }"
-        />
+        <div
+          class="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-3 gap-y-5 sm:gap-y-10 lg:gap-y-10 mx-auto mt-10 place-items-center"
+        >
+          <Socials />
+        </div>
       </header>
     </aside>
   </div>
@@ -51,7 +58,5 @@
   h1,
   h2 {
     font-size: 2em;
-  }
-  h2 {
   }
 </style>
