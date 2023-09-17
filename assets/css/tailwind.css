@@ -32,8 +32,12 @@ p {
 }
 button,
 .btn {
-  background: #0e041e;
+  background: #1c1917;
   padding: 1em 2em;
   cursor: pointer;
   color: #fff;
+  font-size: 1.125rem;
+}
+.btn:hover {
+  background: #18181b;
 }

@@ -3,7 +3,10 @@
     <header>
       <h1>Partners</h1>
       <hr />
-      <p>Here is a list of companies I work with and use personally.</p>
+      <p class="text-xl">
+        Here is a list of companies I work with and use personally. I have
+        worked with them to offer my viwers deals. Please give them a check out.
+      </p>
     </header>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4">
