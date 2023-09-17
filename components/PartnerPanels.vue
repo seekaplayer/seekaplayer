@@ -2,7 +2,7 @@
   <div
     v-for="(partner, index) in partnerData"
     :key="index"
-    class="bg-slate-50 x drop-shadow-lg p-5 flex flex-col justify-between gap-5"
+    class="bg-slate-50 drop-shadow-lg p-5 flex flex-col justify-between gap-5"
   >
     <header>
       <Nuxt-img class="logo" :src="`${partner.logo}`" alt="Company Name" />
