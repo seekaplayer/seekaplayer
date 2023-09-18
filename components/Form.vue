@@ -47,7 +47,7 @@
       ></textarea>
     </div>
 
-    <button class="btn md:w-4/12 lg:w-3/12" type="submit">Send Message</button>
+    <button class="btn md:w-4/12 xl:w-3/12" type="submit">Send Message</button>
   </form>
 </template>
 
