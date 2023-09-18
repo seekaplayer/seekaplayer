@@ -9,7 +9,9 @@
       <h2 class="text-center">{{ partner.name }}</h2>
       <hr class="mt-4" />
     </header>
-    <p class="grow">{{ partner.details }}</p>
+    <p class="grow text-xl leading-relaxed font-thin m-0">
+      {{ partner.details }}
+    </p>
 
     <NuxtLink
       :target="`${linkType}`"

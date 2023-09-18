@@ -3,7 +3,7 @@
     <header>
       <h1>Partners</h1>
       <hr />
-      <p class="text-xl">
+      <p class="text-2xl leading-relaxed font-thin">
         Here is a list of companies I work with and use personally. I have
         worked with them to offer my viwers deals. Please give them a check out.
       </p>
