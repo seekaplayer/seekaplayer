@@ -55,14 +55,6 @@
       linkType: "_blank",
       url: "https://www.humblebundle.com/monthly?partner=seekaplayer",
     },
-    {
-      name: "Aimbot Energy",
-      logo: "/images/aimbot.webp",
-      details:
-        "Aimbot Energy is uniquely powerful, consistently delicious, and completely free of sugar and calories. It almost feels too good to be true. Feel the difference for yourself. Step into the future of energy drinks. Use code SEEAKAPLAYER to save 15%!",
-      linkType: "_blank",
-      url: "https://aimbotenergy.com/discount/SEEKAPLAYER",
-    },
   ];
 </script>
 <style scoped>
